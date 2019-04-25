@@ -15,19 +15,19 @@ When running this script, it takes 3 parameters:
 * output-csv: path to the output csv where the data is to be appended
 
 ```
-$ python get-value.py --raster PHIHOX_M_sl7_250m_Saudi.tif --input-csv sample.csv --output-csv result.csv
+$ python get-value.py --raster PHIHOX.tif --input-csv sample.csv --output-csv result.csv
 ```
 
 When you run, it should output data to confirm it's running.
 ```
-INFO:root:opening PHIHOX_M_sl7_250m_Saudi.tif
+INFO:root:opening PHIHOX.tif
 INFO:root:nodata value = 255.0
 INFO:root:raster size = (10126, 7572)
 INFO:root:origin point = (34.569064635703086, 32.15437606213837)
 INFO:root:pixel width = (0.0020833566163945072, 0.0020832077447607844)
 INFO:root:opening and reading sample.csv
 INFO:root:file scoring complete!
-INFO:root:writing to file PHIHOX_M_sl7_250m_Saudi.tif
+INFO:root:writing to file PHIHOXi.tif
 ```
 
 Contact
